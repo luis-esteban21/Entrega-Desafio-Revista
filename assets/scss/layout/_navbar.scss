@@ -3,6 +3,7 @@
   padding: 10px;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
+  margin: 0 auto;
   
   
   &__logo {
@@ -21,6 +22,7 @@
     color: black;
     display: inline;
     float: right;
+    text-align: right;
     ul{
       list-style: none;
       
@@ -31,7 +33,7 @@
 
         color: black;
         font-weight: 700;
-        padding: 3px;
+        padding: 2px;
         text-decoration: none;
         text-transform: uppercase;
       }
@@ -42,8 +44,11 @@
   display: none;
   @include respond-to('medium'){
   display: inline;
+  
   }
 }
+
+
 
 
 
