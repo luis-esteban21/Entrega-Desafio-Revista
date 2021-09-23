@@ -7,10 +7,17 @@
     
   &__about {
     width: 100%;
+    color: brown;
+    p{
+      color: black;
+    }
   }
   
   &__pinned {
     width: 100%;
+    h1{
+      color: brown;
+    }
     img{
       width: 100%;
     }
@@ -20,6 +27,7 @@
 
   .tags {
     border-bottom: 1px solid gray;
+    color: brown;
   }
 
   .tags ul {

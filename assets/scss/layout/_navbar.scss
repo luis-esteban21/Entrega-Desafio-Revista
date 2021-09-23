@@ -1,6 +1,8 @@
 .menu {
+  color:brown;
   padding: 10px;
   border-bottom: 1px solid gray;
+  padding-bottom: 20px;
   
   
   &__logo {
@@ -16,18 +18,34 @@
 }
   
   .menu__links {
-    display: inline-block;
+    color: black;
+    display: inline;
+    float: right;
     ul{
       list-style: none;
+      
       li{
         display: inline;
       }
       a{
+
+        color: black;
+        font-weight: 700;
+        padding: 3px;
         text-decoration: none;
-            text-transform: uppercase;
+        text-transform: uppercase;
       }
     }
 }
+
+.menu__links-about{
+  display: none;
+  @include respond-to('medium'){
+  display: inline;
+  }
+}
+
+
 
 
   

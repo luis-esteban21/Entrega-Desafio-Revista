@@ -1,3 +1,4 @@
+
 .content {
     width: 95%;
     margin: auto;
@@ -7,27 +8,30 @@
   }
 
   .news {
-    width: 700px;
+    width: 100%;
     float: left;
   }
-
-
   
   .news__post {
-    width: 210px;
+    width: 100%;
     display: inline-block;
     cursor: pointer;
   }
   
   .news__description {
-    margin: 5px;
+    margin: 1px;
+    width: 100%;
+    padding: 2px;
+
   }
 
   .news__description img {
     width: 100%;
+    align-items: center;
+    
     
   }
   
   .news__description p {
-    padding: 5px 10px;
+    padding: 4px 10px;
   }
