@@ -310,11 +310,14 @@ body {
   display: flex;
   align-items: center;
   align-content: space-between;
-  border-bottom: 0.0625rem solid gray .menu __logo;
-  border-bottom-font-size: 24px;
-  border-bottom-font-weight: bold;
-  border-bottom-text-transform: uppercase;
-  border-bottom-display: inline-block;
+  border-bottom: 0.0625rem solid gray;
+}
+  
+  .menu__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
 }
 
 .menu__input {
