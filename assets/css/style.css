@@ -359,22 +359,29 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 .newsletter h2 {
   font-size: 24px;
 }
 
-.group input,
-.group button {
+.suscription__input {
   display: inline-block;
   border-width: 0;
   font-size: 13px;
   padding: 5px 10px;
 }
-
-.group button {
+.suscription__button {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
   background-color: coral;
   color: white;
+}
+@media (min-width: 768px) {
+  .suscription__button {
+    background-color: #f78809;
+    color: white;
+  }
 }
 
 .content {

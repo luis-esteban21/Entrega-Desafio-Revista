@@ -4,22 +4,33 @@
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+
+    h2{
+      font-size: 24px
+    }
   }
-  
-  .newsletter h2 {
-    font-size: 24px
-  }
-  
-  .group input,
-  .group button {
+    
+  .suscription {
+
+    &__input{
+      display: inline-block;
+      border-width: 0;
+      font-size: 13px;
+      padding: 5px 10px;
+
+    }
+
+   &__button {
     display: inline-block;
     border-width: 0;
     font-size: 13px;
     padding: 5px 10px;
-  
-  }
-  
-  .group button {
     background-color: coral;
     color: white;
+    @include respond-to('medium'){
+    background-color:rgb(247, 136, 9);
+    color:white;
+      }
+
   }
+}
