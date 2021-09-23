@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: monospace;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contenedor {
@@ -354,29 +354,26 @@ body {
   color: white;
 }
 
-.contenido {
+.content {
   width: 960px;
   margin: 0 auto;
 }
 
-.listad-noticias {
+.news {
   width: 700px;
   float: left;
 }
-
-.noticia {
+.news__post {
   width: 210px;
   display: inline-block;
   margin: 5px;
   cursor: pointer;
 }
-
-.cuerpo img {
+.news__description img {
   width: 210px;
   height: 300px;
 }
-
-.cuerpo p {
+.news__description p {
   padding: 5px 10px;
 }
 
