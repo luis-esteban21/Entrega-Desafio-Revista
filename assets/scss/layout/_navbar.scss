@@ -1,28 +1,32 @@
 .menu {
-    width: 960px;
-    padding: 10px;
-    border-bottom: 1px solid gray
-  }
+    width: 100%;
+    padding: 1.125rem;
+    margin-right:0;
+    display: flex;  
+    align-items: center;
+    align-content:space-between;
+    border-bottom: 0.0625rem solid gray;
   
-  .logo {
+  
+  &__logo {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
   }
+
+  &__input {
+    border-radius: 30px;
+  }
   
-  .nav {
+  &__nav {
     display: inline-block;
     width: 840px;
     text-align: right;
-  }
-  
-  
- .nav ul li a {
+    ul li a{
     text-decoration: none;
     text-transform: uppercase;
+    }
   }
   
-  .input-menu {
-    border-radius: 30px;
-  }
+}

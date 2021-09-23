@@ -2,18 +2,26 @@
   display: none;
   @include respond-to('medium'){
     display:block;
+    padding: 0 2rem;
   }
+    
+  &__about {
+    width: 100%;
   }
   
-  .sidebar__list {
-    width: 220px;
-    border-bottom: 1px solid gray;
+  &__pinned {
+    width: 100%;
+    img{
+      width: 100%;
+    }
   }
+}
   
+
   .tags {
     border-bottom: 1px solid gray;
   }
-  
+
   .tags ul {
     padding: 0;
     list-style: none;
@@ -24,13 +32,4 @@
     background-color: steelblue;
     margin-right: 1px;
     color: white;
-  }
-  
-  .noticias-destacadas {
-    margin-bottom: 50px;
-  }
-  
-  .noticias-destacadas img {
-    width: 220px;
-    height: 200px;
   }

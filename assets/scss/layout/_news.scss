@@ -1,23 +1,31 @@
 .content {
-    width: 960px;
-    margin: 0 auto;
+    width: 95%;
+    margin: auto;
+    @include respond-to('medium'){
+      width: 80%;
+    }
   }
 
   .news {
     width: 700px;
     float: left;
   }
+
+
   
   .news__post {
     width: 210px;
     display: inline-block;
-    margin: 5px;
     cursor: pointer;
   }
   
+  .news__description {
+    margin: 5px;
+  }
+
   .news__description img {
-    width: 210px;
-    height: 300px;
+    width: 100%;
+    
   }
   
   .news__description p {
