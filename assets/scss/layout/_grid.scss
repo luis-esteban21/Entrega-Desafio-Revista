@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+.contenedor {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
 .row{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
