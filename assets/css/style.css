@@ -293,42 +293,40 @@ body {
   background-color: steelblue;
   margin-right: 1px;
   color: white;
+  display: inline;
+  list-style-type: none;
+  margin-bottom: 1.25rem;
 }
 
 .footer {
-  width: 100%;
-  padding: 0.9375rem;
   margin: 0 auto;
-  font-size: 15px;
   text-align: center;
 }
 
 .menu {
-  width: 100%;
-  padding: 1.125rem;
-  margin-right: 0;
-  display: flex;
-  align-items: center;
-  align-content: space-between;
-  border-bottom: 0.0625rem solid gray;
+  padding: 10px;
+  border-bottom: 1px solid gray;
 }
-  
-  .menu__logo {
+.menu__logo {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  display: inline-block;
+  display: inline;
+}
+.menu__input {
+  border-radius: 1.875rem;
 }
 
-.menu__input {
-  border-radius: 30px;
-}
-.menu__nav {
+.menu__links {
   display: inline-block;
-  width: 840px;
-  text-align: right;
 }
-.menu__nav ul li a {
+.menu__links ul {
+  list-style: none;
+}
+.menu__links ul li {
+  display: inline;
+}
+.menu__links ul a {
   text-decoration: none;
   text-transform: uppercase;
 }
