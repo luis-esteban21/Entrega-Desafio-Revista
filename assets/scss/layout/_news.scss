@@ -3,23 +3,23 @@
     width: 95%;
     margin: auto;
     @include respond-to('medium'){
-      width: 80%;
+    width: 80%;
     }
   }
 
   .news {
     width: 100%;
-    float: left;
+    
   }
   
   .news__post {
     width: 100%;
     display: inline-block;
     cursor: pointer;
-  }
+   }
   
   .news__description {
-    margin: 1px;
+    margin: 0.063;
     width: 100%;
     padding: 2px;
 
@@ -28,6 +28,9 @@
   .news__description img {
     width: 100%;
     align-items: center;
+    padding: 3px;
+   
+
     
     
   }

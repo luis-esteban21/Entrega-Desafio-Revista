@@ -389,7 +389,6 @@ body {
 
 .news {
   width: 100%;
-  float: left;
 }
 
 .news__post {
@@ -399,7 +398,7 @@ body {
 }
 
 .news__description {
-  margin: 1px;
+  margin: 0.063;
   width: 100%;
   padding: 2px;
 }
@@ -407,6 +406,7 @@ body {
 .news__description img {
   width: 100%;
   align-items: center;
+  padding: 3px;
 }
 
 .news__description p {
